@@ -1,0 +1,1 @@
+{"name":"Local: rotten_orange","url":"e:\\Strivers_DSA_CPP\\graphs\\rotten_orange.cpp","tests":[{"id":1713188952184,"input":"3 3\n0 1 2\n0 1 2\n2 1 1","output":"1"},{"id":1713268350854,"input":"3 3\n2 1 1\n1 1 0\n1 1 1","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\graphs\\rotten_orange.cpp","group":"local","local":true}

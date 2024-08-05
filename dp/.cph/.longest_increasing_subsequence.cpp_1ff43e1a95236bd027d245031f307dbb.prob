@@ -1,0 +1,1 @@
+{"name":"Local: longest_increasing_subsequence","url":"e:\\Strivers_DSA_CPP\\dp\\longest_increasing_subsequence.cpp","tests":[{"id":1712073169486,"input":"8\n10 9 2 5 3 7 101 18","output":"4\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\dp\\longest_increasing_subsequence.cpp","group":"local","local":true}

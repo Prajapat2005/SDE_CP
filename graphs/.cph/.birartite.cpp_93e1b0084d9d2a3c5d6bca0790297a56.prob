@@ -1,0 +1,1 @@
+{"name":"Local: birartite","url":"e:\\Strivers_DSA_CPP\\graphs\\birartite.cpp","tests":[{"id":1713379629566,"input":"10 10\n1 2\n2 3\n3 4\n3 5\n4 6\n5 7\n6 8\n7 8\n8 9\n9 10","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\graphs\\birartite.cpp","group":"local","local":true}

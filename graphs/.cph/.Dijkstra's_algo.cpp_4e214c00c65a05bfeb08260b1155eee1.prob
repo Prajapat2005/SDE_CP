@@ -1,0 +1,1 @@
+{"name":"Local: Dijkstra's_algo","url":"e:\\Strivers_DSA_CPP\\graphs\\Dijkstra's_algo.cpp","tests":[{"id":1715344322669,"input":"5 8 0\n0 1 4\n0 2 4\n1 2 2\n2 3 3\n2 5 6\n2 4 1\n3 5 2\n4 5 3","output":"0 4 4 7 5 8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\graphs\\Dijkstra's_algo.cpp","group":"local","local":true}

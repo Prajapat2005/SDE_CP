@@ -1,0 +1,1 @@
+{"name":"Local: add_two_linkedlist","url":"e:\\Strivers_DSA_CPP\\Linked list\\add_two_linkedlist.cpp","tests":[{"id":1712583947593,"input":"","output":"3 3\n2 4 6\n3 8 7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\Linked list\\add_two_linkedlist.cpp","group":"local","local":true}

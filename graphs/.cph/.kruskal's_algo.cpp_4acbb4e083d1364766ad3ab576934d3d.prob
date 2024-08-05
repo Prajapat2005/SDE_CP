@@ -1,0 +1,1 @@
+{"name":"Local: kruskal's_algo","url":"e:\\Strivers_DSA_CPP\\graphs\\kruskal's_algo.cpp","tests":[{"id":1715604131517,"input":"6 9\n1 2 2\n1 5 4\n1 4 1\n5 4 9\n4 2 3\n4 3 5\n3 2 3\n3 6 8\n6 2 7","output":"17"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\graphs\\kruskal's_algo.cpp","group":"local","local":true}
