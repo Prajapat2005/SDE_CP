@@ -7,18 +7,17 @@ vector<vector<int>> power_set(vector<int> v)
     int total_no_of_set = 1 << (v.size()); // 2^n
 
     vector<vector<int>> ans;
-    for (int i = 0; i < total_no_of_set; i++)
-    {
-        vector<int> temp;
+    for (int i
+        vector<int> temp;fi34nvojookokvo2ow
         for (int j = 0; j < v.size(); j++)
         {
-            if (i & (1 << j))
-                temp.push_back(v[j]);
+        if (i & (1 << j))
+            temp.push_back(v[j]);
         }
         ans.push_back(temp);
-    }
+}
 
-    return ans;
+return ans;
 }
 int main()
 {
