@@ -1,0 +1,1 @@
+{"name":"Local: Attribute_Checks_CF","url":"e:\\Strivers_DSA_CPP\\dp\\Attribute_Checks_CF.cpp","tests":[{"id":1728967723233,"input":"10 5\n0 1 0 2 0 -3 0 -4 0 -5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\dp\\Attribute_Checks_CF.cpp","group":"local","local":true}

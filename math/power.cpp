@@ -1,28 +1,22 @@
 #include <bits/stdc++.h>
 using namespace std;
 // O(log(n));
-int power(int n, int m)
-{
-    if (m == 1)
-        return n;
-    if (m == 0)
-        return 1;
-    if (m % 2 == 0)
-        return power(n, m / 2) * power(n, m / 2);
-    else
-        return power(n, m / 2) * power(n, (m + 1) / 2);
-}
-
 int power(int n, int m, int mod)
 {
     if (m == 1)
         return n;
     if (m == 0)
         return 1;
-    if (m % 2 == 0)
-        return ((power(n, m / 2, mod) % mod) * (power(n, m / 2, mod) % mod)) % mod;
-    else
-        return ((power(n, m / 2, mod) % mod) * (power(n, (m + 1) / 2, mod) % mod)) % mod;
+
+    int x = power(n, m / 2, mod);
+
+    x = (x * x) % mod;
+    if (m % 2 != 0)
+    {
+        x = (x * n) % mod;
+    }
+
+    return x;
 }
 
 // O(log(n)) base 2

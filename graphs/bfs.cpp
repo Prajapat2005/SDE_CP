@@ -1,40 +1,46 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-vector<int> bfs(int n, vector<int> adj[] ){
-    vector<int> ans;
+vector<int> bfs(int n, vector<int> adj[])
+{
+   vector<int> ans;
 
-    vector<int> vis(n+1,0); // one base indexing is zero then size is n
-    vis[1]=1;     // starting node
-    queue<int> q;
-    q.push(1);
-    while(!q.empty()){
-       int n=q.front();
-       q.pop();
-       ans.push_back(n);
-       for(int i=0;i<adj[n].size();i++){
-        if(vis[adj[n][i]]!=1) q.push(adj[n][i]);
-         vis[adj[n][i]]=1;
-       }  
-
-    }
-     return ans;
+   vector<int> vis(n + 1, 0); // one base indexing is zero then size is n
+   vis[1] = 1;                // starting node
+   queue<int> q;
+   q.push(1);
+   while (!q.empty())
+   {
+      int n = q.front();
+      q.pop();
+      ans.push_back(n);
+      for (int i = 0; i < adj[n].size(); i++)
+      {
+         if (vis[adj[n][i]] != 1)
+            q.push(adj[n][i]);
+         vis[adj[n][i]] = 1;
+      }
+   }
+   return ans;
 }
 
-int main(){
+int main()
+{
 
-   int n,m;
-   cin>>n>>m;
-   vector<int> adj[n+1];
-   for(int i=1;i<=m;i++){
-    int n1,n2;
-    cin>>n1>>n2;
-    adj[n1].push_back(n2);
-    adj[n2].push_back(n1);
+   int n, m;
+   cin >> n >> m;
+   vector<int> adj[n + 1];
+   for (int i = 1; i <= m; i++)
+   {
+      int n1, n2;
+      cin >> n1 >> n2;
+      adj[n1].push_back(n2);
+      adj[n2].push_back(n1);
    }
 
-   vector<int> ans=bfs(n,adj);
-   for(int i=0;i<ans.size();i++) cout<<ans[i]<<" ";
+   vector<int> ans = bfs(n, adj);
+   for (int i = 0; i < ans.size(); i++)
+      cout << ans[i] << " ";
 }
 
 /*

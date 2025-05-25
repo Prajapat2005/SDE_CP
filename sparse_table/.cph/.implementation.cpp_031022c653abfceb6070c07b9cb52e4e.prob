@@ -1,0 +1,1 @@
+{"name":"Local: implementation","url":"e:\\Strivers_DSA_CPP\\sparse_table\\implementation.cpp","tests":[{"id":1727382847294,"input":"10\n1 2 3 4 5 6 7 8 9 10","output":"18\n18"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\sparse_table\\implementation.cpp","group":"local","local":true}

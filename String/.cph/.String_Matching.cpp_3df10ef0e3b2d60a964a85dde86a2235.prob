@@ -1,0 +1,1 @@
+{"name":"Local: String_Matching","url":"e:\\Strivers_DSA_CPP\\String\\String_Matching.cpp","tests":[{"id":1736261496777,"input":"abababbbc\nababc","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\String\\String_Matching.cpp","group":"local","local":true}

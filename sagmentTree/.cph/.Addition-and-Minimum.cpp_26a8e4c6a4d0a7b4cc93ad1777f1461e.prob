@@ -1,0 +1,1 @@
+{"name":"Local: Addition-and-Minimum","url":"e:\\Strivers_DSA_CPP\\sagmentTree\\Addition-and-Minimum.cpp","tests":[{"id":1728593084031,"input":"5 6\n1 0 3 3\n2 1 2\n1 1 4 4\n2 1 3\n2 1 4\n2 3 5","output":"3\n7\n4\n0\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\sagmentTree\\Addition-and-Minimum.cpp","group":"local","local":true}

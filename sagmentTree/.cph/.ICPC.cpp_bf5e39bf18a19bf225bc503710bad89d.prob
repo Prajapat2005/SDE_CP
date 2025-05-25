@@ -1,0 +1,1 @@
+{"name":"Local: ICPC","url":"e:\\Strivers_DSA_CPP\\sagmentTree\\ICPC.cpp","tests":[{"id":1728211674683,"input":"4 3\n0833\n9383\n1 4 9\n2 4 5\n1 1 1","output":"2 3\n4 2\n1 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\sagmentTree\\ICPC.cpp","group":"local","local":true}

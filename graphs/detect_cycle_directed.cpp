@@ -17,7 +17,6 @@ bool detect_cycle(vector<int> adj[], int z, vector<int> &visited, vector<int> &v
         }
         else if (visited_path[adj[z][i]] == 1)
         {
-
             return true;
         }
     }

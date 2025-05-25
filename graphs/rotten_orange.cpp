@@ -21,6 +21,7 @@ int time_required(vector<vector<int>> v, int n, int m)
     while (!q.empty())
     {
         int n2 = q.size();
+
         for (int i = 0; i < n2; i++)
         {
             int k = q.front().first;

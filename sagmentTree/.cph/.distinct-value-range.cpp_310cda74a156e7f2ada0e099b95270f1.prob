@@ -1,0 +1,1 @@
+{"name":"Local: distinct-value-range","url":"e:\\Strivers_DSA_CPP\\sagmentTree\\distinct-value-range.cpp","tests":[{"id":1728495828776,"input":"5 3\n3 2 3 1 2\n1 3\n2 4\n1 5","output":"2\n3\n3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\sagmentTree\\distinct-value-range.cpp","group":"local","local":true}

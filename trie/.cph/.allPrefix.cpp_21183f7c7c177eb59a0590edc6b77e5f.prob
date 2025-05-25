@@ -1,0 +1,1 @@
+{"name":"Local: allPrefix","url":"e:\\Strivers_DSA_CPP\\trie\\allPrefix.cpp","tests":[{"id":1727184518122,"input":"6\nn ninja ninj ni nin ninga","output":"ninja"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\trie\\allPrefix.cpp","group":"local","local":true}

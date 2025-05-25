@@ -1,0 +1,1 @@
+{"name":"Local: Labyrinth","url":"e:\\Strivers_DSA_CPP\\graphs\\CSES\\Labyrinth.cpp","tests":[{"id":1735490472601,"input":"5 8\n########\n#.A#...#\n#.##.#B#\n#......#\n########","output":"YES\n9\nLDDRRRRRU"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\graphs\\CSES\\Labyrinth.cpp","group":"local","local":true}

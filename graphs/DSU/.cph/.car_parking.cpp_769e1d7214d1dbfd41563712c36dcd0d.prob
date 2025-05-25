@@ -1,0 +1,1 @@
+{"name":"Local: car_parking","url":"e:\\Strivers_DSA_CPP\\graphs\\DSU\\car_parking.cpp","tests":[{"id":1728845705298,"input":"3\n2 2 2","output":"2 3 1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Strivers_DSA_CPP\\graphs\\DSU\\car_parking.cpp","group":"local","local":true}
