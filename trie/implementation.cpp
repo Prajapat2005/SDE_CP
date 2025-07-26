@@ -3,6 +3,7 @@ using namespace std;
 
 struct Node
 {
+
     Node *links[26];
     bool flag = false;
     bool containKey(char ch)
