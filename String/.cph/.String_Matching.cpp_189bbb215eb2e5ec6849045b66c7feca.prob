@@ -1,0 +1,1 @@
+{"name":"Local: String_Matching","url":"e:\\SDE_CP\\String\\String_Matching.cpp","tests":[{"id":1755939602462,"input":"ababababd\nababd","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\SDE_CP\\String\\String_Matching.cpp","group":"local","local":true}

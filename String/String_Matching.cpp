@@ -33,7 +33,7 @@ vector<int> LPS(string &s)
     return lps;
 }
 
-bool string_Matching(string &s1, string &s2)
+/* bool string_Matching(string &s1, string &s2)
 {
 
     int n1 = s1.length();
@@ -65,6 +65,37 @@ bool string_Matching(string &s1, string &s2)
     }
 
     return j == n2;
+} */
+
+vector<int> match(string s1, string s2)
+{
+    vector<int> lps = LPS(s2);
+    int i = 0, j = 0;
+    int n = s1.length();
+    int m = s2.length();
+
+    vector<int> ans;
+
+    for (int i = 0; i < n; i++)
+    {
+        while (j > 0 && s1[i] != s2[j])
+        {
+            j = lps[j - 1];
+        }
+
+        if (s1[i] == s2[j])
+        {
+            j++;
+        }
+
+        if (j == m)
+        {
+            ans.push_back(i - j + 1);
+            j = lps[j - 1];
+        }
+    }
+
+    return ans;
 }
 
 int main()
@@ -72,5 +103,8 @@ int main()
     string s1, s2;
     cin >> s1 >> s2;
 
-    cout << string_Matching(s1, s2);
+    for (auto it : match(s1, s2))
+    {
+        cout << it << " ";
+    }
 }

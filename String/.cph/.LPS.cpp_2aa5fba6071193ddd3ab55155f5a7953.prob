@@ -1,0 +1,1 @@
+{"name":"Local: LPS","url":"e:\\SDE_CP\\String\\LPS.cpp","tests":[{"id":1755938063002,"input":"aaacaaaaa","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\SDE_CP\\String\\LPS.cpp","group":"local","local":true}

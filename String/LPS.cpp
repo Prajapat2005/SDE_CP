@@ -7,27 +7,54 @@ vector<int> LPS(string s)
     int n = s.length();
 
     vector<int> lps(n, 0);
-    int pref = 0, suf = 1;
-    while (suf < n)
+    int curr_lps_len = 0, i = 1;
+
+    while (i < n)
     {
-        if (s[pref] == s[suf])
+        if (s[curr_lps_len] == s[i])
         {
-            lps[suf] = pref + 1;
-            pref++;
-            suf++;
+            curr_lps_len++;
+            lps[i] = curr_lps_len;
+            i++;
         }
         else
         {
-            if (pref == 0)
+            if (curr_lps_len == 0)
             {
-                lps[suf] = 0;
-                suf++;
+                lps[i] = 0;
+                i++;
             }
             else
             {
-                pref = lps[pref - 1];
+                curr_lps_len = lps[curr_lps_len - 1];
             }
         }
+    }
+
+    return lps;
+}
+
+vector<int> LPS(string s)
+{
+
+    int n = s.length();
+    vector<int> lps(n);
+    lps[0] = 0;
+    int curr_lps_len = 0;
+
+    for (int i = 1; i < n; i++)
+    {
+        while (curr_lps_len > 0 && s[curr_lps_len] != s[i])
+        {
+            curr_lps_len = lps[curr_lps_len - 1];
+        }
+
+        if (s[curr_lps_len] == s[i])
+        {
+            curr_lps_len++;
+        }
+
+        lps[i] = curr_lps_len;
     }
 
     return lps;
@@ -38,5 +65,8 @@ int main()
     string s;
     cin >> s;
 
-    cout << LPS(s)[s.length() - 1];
+    for (auto it : LPS(s))
+    {
+        cout << it << " ";
+    }
 }

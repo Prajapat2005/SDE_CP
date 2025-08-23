@@ -14,8 +14,7 @@ vector<int> Z_algo(string &s)
 {
 
     int n = s.length();
-    vector<int>
-        z(n, 0);
+    vector<int> z(n, 0);
 
     int l = 0, r = 0;
 
