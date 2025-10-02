@@ -1,0 +1,1 @@
+{"name":"Local: E_Count_Arithmetic_Subsequences","url":"e:\\SDE_CP\\dp\\E_Count_Arithmetic_Subsequences.cpp","tests":[{"id":1759445433337,"input":"5\n1 2 3 2 3\n","output":""},{"id":1759445466237,"input":"4\n1 2 3 4\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\SDE_CP\\dp\\E_Count_Arithmetic_Subsequences.cpp","group":"local","local":true}
